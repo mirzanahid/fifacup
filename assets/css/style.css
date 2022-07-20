@@ -504,10 +504,10 @@ footer .social-icons ul li i {
     background: #FFFFFF;
     color: #191634;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    line-height: 35px;
+    line-height: 40px;
     transition: .4s;
 }
 
@@ -540,6 +540,7 @@ footer .social-icons ul li i:hover {
     /* ================================
              typography css start
        ================================ */
+
     .main-heading {
         font-size: 22px;
         line-height: 33px;
@@ -552,6 +553,12 @@ footer .social-icons ul li i:hover {
         width: auto;
     }
 
+    .match-heading {
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
     /* ================================
              typography css end
        ================================ */
@@ -560,6 +567,7 @@ footer .social-icons ul li i:hover {
        ================================ */
     header .header-cont {
         border-radius: 10px;
+        margin-top: 30px;
 
     }
 
@@ -647,6 +655,11 @@ footer .social-icons ul li i:hover {
 
     }
 
+    #main-content .match .flag {
+        width: 80px;
+        height: 50px;
+    }
+
     /* ================================
              blog  css end
        ================================ */
@@ -680,7 +693,6 @@ footer .social-icons ul li i:hover {
     /* ================================
              footer  css end
        ================================ */
-
 }
 
 /*==========for small mobile device landscape============== */
@@ -711,6 +723,11 @@ footer .social-icons ul li i:hover {
         width: auto;
     }
 
+    .match-heading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
     /* ================================
              typography css end
        ================================ */
@@ -719,6 +736,7 @@ footer .social-icons ul li i:hover {
        ================================ */
     header .header-cont {
         border-radius: 10px;
+        margin-top: 30px;
     }
 
     header .header-main {
@@ -796,6 +814,11 @@ footer .social-icons ul li i:hover {
         padding-right: 20px;
     }
 
+    #main-content .match .flag {
+        width: 80px;
+        height: 50px;
+    }
+
     /* ================================
              blog  css end
        ================================ */
@@ -851,8 +874,8 @@ footer .social-icons ul li i:hover {
        ================================ */
     .main-heading {
         font-size: 40px;
-        line-height: 50px;
-        width: 289px;
+        line-height: 55px;
+        width: 322px;
     }
 
     .header-pra {
@@ -868,8 +891,8 @@ footer .social-icons ul li i:hover {
              header  css start
        ================================ */
     header .header-main .header-text {
-        padding-top: 35px;
-        margin-left: 75px;
+        padding-top: 50px;
+        margin-left: 55px;
     }
 
     header .header-main .header-image {
@@ -1069,6 +1092,7 @@ footer .social-icons ul li i:hover {
     #main-content .match {
         width: 312px;
     }
+
     #main-content .inner-content .right-content .blog-cards .card .card-text {
         padding-right: 20px;
     }
@@ -1087,6 +1111,7 @@ footer .social-icons ul li i:hover {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     footer .social-icons {
         margin-top: 50px;
     }

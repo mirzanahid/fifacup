@@ -1,0 +1,45 @@
+/* ================================
+          common css start
+   ================================ */
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.test{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* ================================
+          common css end
+   ================================ */
+/* ================================
+          typography css start
+   ================================ */
+
+
+
+/* ================================
+          typography css end
+   ================================ */
+/* ================================
+          buttons css start
+   ================================ */
+
+/* ================================
+          buttons css end
+   ================================ */

@@ -1,37 +1,157 @@
 /* ================================
           common css start
    ================================ */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-ol,ul{
+
+ol,
+ul {
     list-style: none;
 }
-a,a:hover,a:focus{
+
+a,
+a:hover,
+a:focus {
     text-decoration: none;
-    
+
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     max-width: 1320px;
     margin: 0 auto;
+    position: relative;
 }
-.test{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+
+body {
+    overflow-x: hidden;
 }
+
 /* ================================
           common css end
    ================================ */
 /* ================================
           typography css start
    ================================ */
+.main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    width: 545px;
 
+}
 
+.header-pra {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 506px;
+
+}
+
+.blog-card_heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #191634;
+}
+
+.card-comment {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
+    display: inline-block;
+
+}
+
+.card-comment i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* ==========================<<<upcoming page start>>>>>============== */
+.flag-vs {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.match-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #191634;
+
+}
+
+.match-time {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+
+}
+
+/* ==========================<<<upcoming page end>>>>>============== */
+/* ==========================<<<allgroup page start>>>>>============== */
+.group-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.country-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #191634;
+}
+
+/* ==========================<<<allgroup page end>>>>>============== */
+
+.footer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+.foot-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+
+}
 
 /* ================================
           typography css end
@@ -39,7 +159,1033 @@ h1,h2,h3,h4,h5,h6,p{
 /* ================================
           buttons css start
    ================================ */
+.header-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #08d565;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.header-btn i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #191634;
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 252px;
+    padding: 18px 0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.blog-card-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191634;
+    border: 1px solid #191634;
+    border-radius: 5px;
+    padding: 4px 16px;
+    display: inline-block;
+
+}
+
+.view-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 12px 30px;
+    display: inline-block;
+
+}
 
 /* ================================
           buttons css end
    ================================ */
+/* ================================
+          header css start
+   ================================ */
+header {
+    overflow: hidden;
+}
+
+header .header-cont {
+    background-color: #191634;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+header .header-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-main .header-text {
+    padding-top: 110px;
+    margin-left: 100px;
+}
+
+header .header-main .header-image {
+    width: 581px;
+    height: 613px;
+    margin-right: 70px;
+}
+
+header .header-main .header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header a {
+    margin-top: 30px;
+}
+
+/* ================================
+          header css end
+   ================================ */
+
+/* ==========================<<<blog page start>>>>>============== */
+/* ================================
+          blog-part css start
+   ================================ */
+#main-content {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+#main-content .inner-content {
+    display: flex;
+    align-items: stretch;
+
+}
+
+#main-content .inner-content .sidenav {
+    width: 312px;
+    margin-right: 24px;
+}
+
+#main-content .inner-content .sidenav .navigaion {
+    background-color: #191634;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+#main-content .inner-content .sidenav .navigaion .active {
+    background-color: #08d565;
+    color: #FFFFFF;
+}
+
+#main-content .inner-content .right-content {
+    flex-grow: 1;
+
+}
+
+#main-content .blog-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+#main-content .card {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+#main-content .inner-content .right-content .card-image {
+    width: 100%;
+    height: 175px;
+
+}
+
+#main-content .inner-content .right-content .card-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main-content .inner-content .right-content .blog-cards .card .card-text {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#main-content .inner-content .right-content .blog-cards .card .card-text a {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#main-content .inner-content .right-content .blog-cards .card .card-text .comments {
+    margin-top: 20px;
+}
+
+#main-content .inner-content .right-content .blog-cards .card .card-text .comments span {
+    margin-right: 30px;
+}
+
+#main-content .view {
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+
+/* ================================
+          blog-part css end
+   ================================ */
+
+/* ==========================<<<blog page end>>>>>============== */
+/* ==========================<<<upcoming page start>>>>>============== */
+/* ================================
+          match css start
+   ================================ */
+#main-content .matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+#main-content .match {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#main-content .match .match-image {
+    display: flex;
+    justify-content: space-between;
+    margin: 53px 30px 20px 30px;
+    align-items: center;
+}
+
+#main-content .match .flag {
+    width: 94px;
+    height: 55px;
+}
+
+#main-content .match .flag img {
+    width: 100%;
+    height: 100%;
+}
+
+#main-content .match .match-text {
+    margin-bottom: 53px;
+}
+
+#main-content .match .match-text h5 {
+    margin-bottom: 10px;
+}
+
+/* ================================
+          match css end
+   ================================ */
+
+/* ==========================<<<upcoming page end>>>>>============== */
+/* ==========================<<<allgroup page start>>>>>============== */
+/* ================================
+          group css start
+   ================================ */
+#main-content .groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+#main-content .group {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+#main-content .group h6 {
+    background-color: #191634;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+#main-content .group ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#main-content .group ul li {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    background-color: #eeeee4;
+    margin-top: 10px;
+    padding: 12px 0;
+    border-radius: 10px;
+}
+
+#main-content .group ul li img {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+/* ================================
+          group css end
+   ================================ */
+
+/* ==========================<<<allgroup page end>>>>>============== */
+/* ================================
+          footer css start
+   ================================ */
+footer {
+    background-color: #191634;
+    text-align: center;
+    padding: 130px 0 100px 0;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer .footer-link {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer .social-icons {
+    margin-top: 50px;
+}
+
+footer .social-icons ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social-icons ul li i {
+    font-size: 22px;
+    background: #FFFFFF;
+    color: #191634;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    transition: .4s;
+}
+
+footer .social-icons ul li i:hover {
+    color: #FFFFFF;
+    background-color: #08d565;
+}
+
+/* ================================
+          footer css end
+   ================================ */
+
+/* =============>>>>>>>>Responsive start<<<<<<<<=========== */
+
+/*==========for small mobile device============== */
+@media only screen and (max-width: 575.98px) {
+
+    /* ================================
+             common css start
+       ================================ */
+    .container {
+        max-width: 100%;
+        margin: 0 15px;
+    }
+
+    /* ================================
+             common css end
+       ================================ */
+
+    /* ================================
+             typography css start
+       ================================ */
+    .main-heading {
+        font-size: 22px;
+        line-height: 33px;
+        width: auto;
+    }
+
+    .header-pra {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    /* ================================
+             typography css end
+       ================================ */
+    /* ================================
+             header  css start
+       ================================ */
+    header .header-cont {
+        border-radius: 10px;
+
+    }
+
+    header .header-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .header-main .header-text {
+        padding-top: 30px;
+        margin-left: 0;
+        text-align: center;
+        width: 230px;
+    }
+
+    header .header-main .header-image {
+        width: 233px;
+        height: 245px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+             header  css end
+       ================================ */
+    /* ================================
+             buttons  css start
+       ================================ */
+    .header-btn {
+        padding: 10px 20px;
+        margin-bottom: 30px;
+
+    }
+
+    .nav-btn {
+        padding: 18px 0;
+        margin-bottom: 30px;
+        border: 1px solid #E8E8E8;
+    }
+
+    /* ================================
+             buttons  css end
+       ================================ */
+
+    /* ================================
+             blog  css start
+       ================================ */
+    #main-content {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    #main-content .inner-content {
+        flex-direction: column;
+    }
+
+    #main-content .inner-content .sidenav {
+        width: 100%;
+
+    }
+
+    #main-content .inner-content .sidenav .navigaion {
+        background-color: #fff;
+    }
+
+    #main-content .blog-cards,
+    #main-content .groups,
+    #main-content .matches {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    #main-content .card,
+    #main-content .group,
+    #main-content .match {
+        width: 280px;
+    }
+
+    #main-content .inner-content .right-content .blog-cards .card .card-text {
+
+        padding-right: 20px;
+    }
+
+    #main-content .group ul li {
+        width: 240px;
+
+    }
+
+    /* ================================
+             blog  css end
+       ================================ */
+    /* ================================
+             footer  css start
+       ================================ */
+    footer {
+        padding: 24px 0 24px 0;
+    }
+
+    footer hr {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    footer .footer-link {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-link {
+        margin-bottom: 30px;
+    }
+
+    footer .social-icons {
+        margin-top: 30px;
+    }
+
+    /* ================================
+             footer  css end
+       ================================ */
+
+}
+
+/*==========for small mobile device landscape============== */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ================================
+             common css start
+       ================================ */
+    .container {
+        max-width: 540px;
+    }
+
+    /* ================================
+             common css end
+       ================================ */
+    /* ================================
+             typography css start
+       ================================ */
+    .main-heading {
+        font-size: 22px;
+        line-height: 33px;
+        width: auto;
+    }
+
+    .header-pra {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    /* ================================
+             typography css end
+       ================================ */
+    /* ================================
+             header  css start
+       ================================ */
+    header .header-cont {
+        border-radius: 10px;
+    }
+
+    header .header-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .header-main .header-text {
+        padding-top: 30px;
+        margin-left: 0;
+        text-align: center;
+        width: 230px;
+    }
+
+    header .header-main .header-image {
+        width: 233px;
+        height: 245px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+             header  css end
+       ================================ */
+    /* ================================
+             buttons  css start
+       ================================ */
+    .header-btn {
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .nav-btn {
+        padding: 18px 0;
+        margin-bottom: 30px;
+        border: 1px solid #E8E8E8;
+    }
+
+    /* ================================
+             buttons  css end
+       ================================ */
+    /* ================================
+             blog  css start
+       ================================ */
+    #main-content {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    #main-content .inner-content {
+        flex-direction: column;
+    }
+
+    #main-content .inner-content .sidenav {
+        width: 100%;
+    }
+
+    #main-content .inner-content .sidenav .navigaion {
+        background-color: #fff;
+    }
+
+    #main-content .blog-cards,
+    #main-content .groups,
+    #main-content .matches {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    #main-content .card,
+    #main-content .group,
+    #main-content .match {
+        width: 312px;
+    }
+
+    #main-content .inner-content .right-content .blog-cards .card .card-text {
+        padding-right: 20px;
+    }
+
+    /* ================================
+             blog  css end
+       ================================ */
+    /* ================================
+             footer  css start
+       ================================ */
+    footer {
+        padding: 24px 0 24px 0;
+    }
+
+    footer hr {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    footer .footer-link {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-link {
+        margin-bottom: 30px;
+    }
+
+    footer .social-icons {
+        margin-top: 30px;
+    }
+
+    /* ================================
+             footer  css end
+       ================================ */
+
+}
+
+/*==========for tablet device ============== */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ================================
+             common css start
+       ================================ */
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+             common css end
+       ================================ */
+    /* ================================
+             typography css start
+       ================================ */
+    .main-heading {
+        font-size: 40px;
+        line-height: 50px;
+        width: 289px;
+    }
+
+    .header-pra {
+        font-size: 14px;
+        line-height: 24px;
+        width: 316px;
+    }
+
+    /* ================================
+             typography css end
+       ================================ */
+    /* ================================
+             header  css start
+       ================================ */
+    header .header-main .header-text {
+        padding-top: 35px;
+        margin-left: 75px;
+    }
+
+    header .header-main .header-image {
+        width: 330px;
+        height: 344px;
+        margin-top: 30px;
+        margin-right: 22px;
+    }
+
+    /* ================================
+             header  css end
+       ================================ */
+    /* ================================
+             buttons  css start
+       ================================ */
+    .header-btn {
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .nav-btn {
+        padding: 18px 0;
+        margin-bottom: 30px;
+        border: 1px solid #E8E8E8;
+        width: 230px;
+    }
+
+    /* ================================
+             buttons  css end
+       ================================ */
+    /* ================================
+             blog  css start
+       ================================ */
+    #main-content {
+        margin-top: 50px;
+        margin-bottom: 69px;
+    }
+
+    #main-content .inner-content {
+        flex-direction: column;
+    }
+
+    #main-content .inner-content .sidenav {
+        width: 100%;
+
+    }
+
+    #main-content .inner-content .sidenav .navigaion {
+        width: 100%;
+        background-color: #fff;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 30px;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+
+
+    #main-content .blog-cards,
+    #main-content .groups,
+    #main-content .matches {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    #main-content .card,
+    #main-content .group,
+    #main-content .match {
+        width: 345px;
+    }
+
+    #main-content .inner-content .right-content .blog-cards .card2 {
+        display: none;
+    }
+
+    #main-content .inner-content .right-content .blog-cards .card .card-text {
+
+        padding-right: 20px;
+    }
+
+    #main-content .view {
+        text-align: center;
+        margin-top: 50px;
+        display: block;
+    }
+
+    /* ================================
+             blog  css end
+       ================================ */
+    /* ================================
+             footer  css start
+       ================================ */
+    footer {
+        padding: 70px 0 50px 0;
+    }
+
+    footer hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer .footer-link {
+
+        width: 635px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .foot-link {
+        width: 133px;
+        margin: 12px 12px;
+    }
+
+    footer .social-icons {
+        margin-top: 30px;
+    }
+
+    /* ================================
+             footer  css end
+       ================================ */
+
+}
+
+/*==========for Large devices ============== */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ================================
+             common css start
+       ================================ */
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+             common css end
+       ================================ */
+    /* ================================
+             typography css start
+       ================================ */
+    .main-heading {
+        font-size: 50px;
+        line-height: 60px;
+        width: 400px;
+    }
+
+    .header-pra {
+        font-size: 16px;
+        line-height: 26px;
+        width: 378px;
+    }
+
+    /* ================================
+             typography css end
+       ================================ */
+    /* ================================
+             header  css start
+       ================================ */
+    header .header-main .header-text {
+        padding-top: 75px;
+        margin-left: 75px;
+    }
+
+    header .header-main .header-image {
+        width: 400px;
+        height: 450px;
+        margin-top: 0;
+        margin-right: 35px;
+    }
+
+    /* ================================
+             header  css end
+       ================================ */
+    /* ================================
+             buttons  css start
+       ================================ */
+    .nav-btn {
+        padding: 18px 0;
+        margin-bottom: 30px;
+        border: 1px solid #E8E8E8;
+        width: 230px;
+    }
+
+    /* ================================
+             buttons  css end
+       ================================ */
+    /* ================================
+             blog  css start
+       ================================ */
+
+    #main-content .blog-cards,
+    #main-content .groups,
+    #main-content .matches {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    #main-content .card,
+    #main-content .group,
+    #main-content .match {
+        width: 312px;
+    }
+    #main-content .inner-content .right-content .blog-cards .card .card-text {
+        padding-right: 20px;
+    }
+
+    /* ================================
+             blog  css end
+       ================================ */
+    /* ================================
+             footer  css start
+       ================================ */
+    footer {
+        padding: 90px 0 50px 0;
+    }
+
+    footer hr {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    footer .social-icons {
+        margin-top: 50px;
+    }
+
+    /* ================================
+             footer  css end
+       ================================ */
+
+}
+
+/*==========for Lxtra Large devices ============== */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* ================================
+             common css start
+       ================================ */
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    /* ================================
+             common css end
+       ================================ */
+    /* ================================
+             typography css start
+       ================================ */
+    .main-heading {
+        font-size: 60px;
+        line-height: 75px;
+        width: 480px;
+    }
+
+    /* ================================
+             typography css end
+       ================================ */
+    /* ================================
+             header  css start
+       ================================ */
+    header .header-main .header-text {
+        padding-top: 82px;
+        margin-left: 75px;
+    }
+
+    header .header-main .header-image {
+        width: 490px;
+        height: 530px;
+        margin-top: 0;
+        margin-right: 50px;
+    }
+
+    /* ================================
+             header  css end
+       ================================ */
+    /* ================================
+             buttons  css start
+       ================================ */
+
+    .nav-btn {
+        padding: 18px 0;
+        margin-bottom: 30px;
+        border: 1px solid #E8E8E8;
+        width: 200px;
+    }
+
+    /* ================================
+             buttons  css end
+       ================================ */
+    /* ================================
+             blog  css start
+       ================================ */
+    #main-content .inner-content .sidenav {
+        width: 255px;
+
+    }
+
+    #main-content .blog-cards,
+    #main-content .groups,
+    #main-content .matches {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    #main-content .card,
+    #main-content .group,
+    #main-content .match {
+        width: 270px;
+    }
+
+    #main-content .inner-content .right-content .blog-cards .card .card-text {
+        padding-right: 20px;
+    }
+
+    /* ================================
+             blog  css end
+       ================================ */
+}
+
+/* =============>>>>>>>>Responsive end<<<<<<<<=========== */

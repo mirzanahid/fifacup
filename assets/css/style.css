@@ -164,11 +164,16 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #FFFFFF;
-    background-color: #08d565;
+    color: #08d565;
+    /* background-color: #08d565; */
     padding: 15px 30px;
     border-radius: 5px;
     display: inline-block;
+    position: relative;
+    transition: all 0.2s;
+    overflow: hidden;
+    border: 1px solid #08d565;
+    z-index: 1;
 }
 
 
@@ -176,6 +181,89 @@ body {
     font-size: 20px;
     margin-left: 10px;
 }
+
+
+.header-btn:before,
+.header-btn:after,
+span:before,
+span:after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #08d565;
+  z-index: -1;
+  transition: all 0.1s;
+  
+}
+
+.header-btn:before {
+  top: 100%;
+  left: 0%;
+  border-radius: 5px 0 0 5px 
+}
+
+.header-btn:hover:before {
+  top: 0;
+  left: 0;
+}
+
+.header-btn:after {
+  top: -100%;
+  right: 0;
+  transition-delay: 0.3s;
+  border-radius: 0 5px 5px 0;
+}
+
+.header-btn:hover:after {
+  top: 0;
+  right: 0;
+}
+
+.header-btn span:before {
+  top: -100%;
+  left: 25%;
+  transition-delay: 0.1s;
+ 
+}
+
+.header-btn:hover span:before {
+  top: 0;
+  left: 25%;
+}
+
+.header-btn span:after {
+  bottom: -100%;
+  right: 25%;
+  transition-delay: 0.2s;
+  
+}
+
+.header-btn:hover span:after {
+  bottom: 0;
+  right: 25%;
+}
+
+.header-btn:hover {
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nav-btn {
     font-family: 'Roboto', sans-serif;
@@ -711,9 +799,9 @@ footer .social-icons ul li i:hover {
     /* ================================
              typography css start
        ================================ */
-    .main-heading {
-        font-size: 22px;
-        line-height: 33px;
+       .main-heading {
+        font-size: 28px;
+        line-height: 40px;
         width: auto;
     }
 

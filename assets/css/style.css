@@ -182,7 +182,7 @@ body {
     margin-left: 10px;
 }
 
-
+/* =================================>>>>button hover animation start<<<<========================= */
 .header-btn:before,
 .header-btn:after{
   content: "";
@@ -255,22 +255,7 @@ body {
   color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =================================>>>>button hover animation end<<<<========================= */
 
 .nav-btn {
     font-family: 'Roboto', sans-serif;

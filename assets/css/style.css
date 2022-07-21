@@ -169,8 +169,8 @@ body {
     padding: 15px 30px;
     border-radius: 5px;
     display: inline-block;
-
 }
+
 
 .header-btn i {
     font-size: 20px;
@@ -724,8 +724,8 @@ footer .social-icons ul li i:hover {
     }
 
     .match-heading {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     /* ================================
@@ -772,6 +772,8 @@ footer .social-icons ul li i:hover {
         padding: 18px 0;
         margin-bottom: 30px;
         border: 1px solid #E8E8E8;
+        width: 170px;
+        font-size: 18px;
     }
 
     /* ================================
@@ -795,23 +797,29 @@ footer .social-icons ul li i:hover {
 
     #main-content .inner-content .sidenav .navigaion {
         background-color: #fff;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     #main-content .blog-cards,
     #main-content .groups,
     #main-content .matches {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
 
     #main-content .card,
     #main-content .group,
     #main-content .match {
-        width: 312px;
+        width: 255px;
     }
 
     #main-content .inner-content .right-content .blog-cards .card .card-text {
         padding-right: 20px;
+    }
+
+    #main-content .group ul li {
+        width: 220px;
     }
 
     #main-content .match .flag {

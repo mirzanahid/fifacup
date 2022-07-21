@@ -184,9 +184,7 @@ body {
 
 
 .header-btn:before,
-.header-btn:after,
-span:before,
-span:after {
+.header-btn:after{
   content: "";
   position: absolute;
   width: 25%;
@@ -196,7 +194,16 @@ span:after {
   transition: all 0.1s;
   
 }
-
+.header-btn span:before,
+.header-btn span:after{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: #08d565;
+    z-index: -1;
+    transition: all 0.1s;
+}
 .header-btn:before {
   top: 100%;
   left: 0%;
